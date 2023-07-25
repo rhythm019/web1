@@ -1,0 +1,35 @@
+body {
+  /* background-color: rgb(252, 253, 192); */
+  background-image: url("pic.jpg");
+  background-size: cover;
+}
+p {
+  font-size: large;
+  font-weight: bold;
+}
+h1 {
+  color: rgb(190, 33, 114);
+  font-weight: 800px;
+  font-family: "Rubik", sans-serif;
+}
+input,
+textarea {
+  color: rgb(172, 32, 116);
+}
+label {
+  color: rgb(9, 78, 95);
+  font-weight: bolder;
+  font-size: larger;
+}
+.thumb {
+  width: 60px;
+  height: 60px;
+  margin-left: 10px;
+}
+.button {
+  color: rgb(186, 36, 114);
+  font-weight: bold;
+  height: 30px;
+  width: 130px;
+  margin-bottom: 50px;
+}

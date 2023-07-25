@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>website</title>
+    <!-- internal css -->
+    <style>
+      table,
+      th,
+      td {
+        background-color: white;
+        border: 1px solid black;
+      }
+      th {
+        background-color: antiquewhite;
+      }
+      td {
+        background-color: rgb(195, 244, 239);
+      }
+      /* External css */
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" />
+    <link rel="stylesheet" href="loginstyle.css" />
+  </head>
+  <body>
+    <h1>APPLICATION</h1>
+    <!-- adding video -->
+    <video width="410" height="240" autoplay loop>
+      <source src="video.mp4" type="video/mp4" />
+    </video>
+    <p><i>please enter your details here</i></p>
+    <!-- form for application -->
+    <form action="">
+      <label for="myname">NAME:&nbsp;&nbsp;&nbsp;</label>
+      <input type="text" name="myname" id="myname" />
+      <br />
+      <br />
+      <label for="mymail">E-MAIL:</label>
+      <input type="email" name="mymail" id="mymail" />
+      <br />
+      <br />
+      <label for="date">DATE OF BIRTH:&nbsp;&nbsp;&nbsp;&nbsp;</label>
+      <input type="date" />
+      <br />
+      <br />
+      <label for="gender">GENDER:&nbsp;&nbsp;&nbsp;</label>
+      male<input type="radio" name="mygender" /> female<input
+        type="radio"
+        name="mygender" />
+      other<input type="radio" name="mygender" />
+      <br />
+      <br />
+      <label for="describe">DESCRIPTION:</label><br />
+      <textarea name="mytext" cols="43" rows="5"></textarea>
+      <br />
+      <br />
+      <label for="detail">DETAILS:</label>
+      <!-- list -->
+      <!-- inline css -->
+      <ul
+        style="
+          color: rgb(39, 157, 172);
+          font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+            'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+          font-size: small;
+        ">
+        <li>
+          <b>COUNTRY OF RESIDENCE</b><br />
+          <textarea cols="38" rows="3"></textarea>
+        </li>
+        <li>
+          <b>DO YOU HAVE ANY WORK EXPERIENCE?</b> <br />
+          <textarea cols="38" rows="3"></textarea>
+        </li>
+        <li>
+          <b>DO YOU HAVE ANY CRIMINAL HISTORY? </b><br />
+          <textarea cols="38" rows="3"></textarea>
+        </li>
+      </ul>
+      <br />
+      <label for="avail">AVAILABILITY:</label>
+      <br />
+      <!-- table -->
+      <table>
+        <thead>
+          <tr>
+            <th>Days</th>
+            <th>Timings</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Monday</td>
+            <td><textarea name="mytext" cols="32" rows="2"></textarea></td>
+          </tr>
+          <tr>
+            <td>Monday</td>
+            <td><textarea name="mytext" cols="32" rows="2"></textarea></td>
+          </tr>
+          <tr>
+            <td>Wednesday</td>
+            <td><textarea name="mytext" cols="32" rows="2"></textarea></td>
+          </tr>
+          <tr>
+            <td>Thursday</td>
+            <td><textarea name="mytext" cols="32" rows="2"></textarea></td>
+          </tr>
+          <tr>
+            <td>Friday</td>
+            <td><textarea name="mytext" cols="32" rows="2"></textarea></td>
+          </tr>
+          <tr>
+            <td>Saturday</td>
+            <td><textarea name="mytext" cols="32" rows="2"></textarea></td>
+          </tr>
+          <tr>
+            <td>Sunday</td>
+            <td><textarea name="mytext" cols="32" rows="2"></textarea></td>
+          </tr>
+        </tbody>
+      </table>
+      <br />
+      <br />
+      <!-- buttons -->
+      <a href="https://www.google.com"
+        ><input class="button" type="button" value="SUBMIT"
+      /></a>
+      <input class="button" type="reset" value="RESET" />
+      <img
+        class="thumb"
+        src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQn8gNh_cOHCku2o7JUPpxWg5Sr_PTteYVEd1EkCrOlUFktfu_p"
+        alt="image" />
+    </form>
+  </body>
+</html>
